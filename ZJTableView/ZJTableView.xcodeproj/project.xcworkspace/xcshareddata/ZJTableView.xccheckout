@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>066171A1-4F8C-48A1-8D82-4AFAE3E95131</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZJTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A9C972D-DF84-4D4E-B3D5-6C9D487A006B</key>
+		<string>https://github.com/JStackHouse/Examples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZJTableView/ZJTableView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A9C972D-DF84-4D4E-B3D5-6C9D487A006B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JStackHouse/Examples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A9C972D-DF84-4D4E-B3D5-6C9D487A006B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A9C972D-DF84-4D4E-B3D5-6C9D487A006B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Examples</string>
+		</dict>
+	</array>
+</dict>
+</plist>
