@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZJViewController : UIViewController
+@interface ZJViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end
