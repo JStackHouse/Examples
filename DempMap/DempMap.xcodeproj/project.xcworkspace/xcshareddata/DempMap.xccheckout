@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A0AAFC8-3E7B-41BF-88C7-B954037133B0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DempMap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CCAC1862B19927E65C8C21B29AEBE0E47EFD0133</key>
+		<string>https://github.com/JStackHouse/Examples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DempMap/DempMap.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CCAC1862B19927E65C8C21B29AEBE0E47EFD0133</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JStackHouse/Examples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CCAC1862B19927E65C8C21B29AEBE0E47EFD0133</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCAC1862B19927E65C8C21B29AEBE0E47EFD0133</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Examples</string>
+		</dict>
+	</array>
+</dict>
+</plist>

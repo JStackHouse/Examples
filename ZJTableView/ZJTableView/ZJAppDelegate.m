@@ -15,6 +15,7 @@
 {
     // Override point for customization after application launch.
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [ZJDBBase launchDatabase];
     return YES;
 }
 							

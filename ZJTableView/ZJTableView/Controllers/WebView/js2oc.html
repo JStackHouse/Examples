@@ -1,0 +1,16 @@
+<html>
+    <script language='JavaScript'> 
+        function myfun() { 
+             window.location.href="objc:doFunc1";//Call OC
+            return false; 
+        } 
+        
+        function myfun1() { 
+            window.location.href="objc:doFunc2";//Call OC
+            return false; 
+        } 
+        </script>
+    
+    <input type="button" id="enter" value="doFunc1" onclick="myfun();"/>
+    <input type="button" id="enter1" value="doFunc2" onclick="myfun1();"/>
+<html>

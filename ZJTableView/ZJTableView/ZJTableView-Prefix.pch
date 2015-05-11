@@ -14,4 +14,12 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import "Lumberjack.h"
+    #import "EGODatabase.h"
+    #import "ZJDBBase.h"
+    #import "UIView+AnimationExtensions.h"
+
+    #import "UIKit+AFNetworking.h"
+    #import "AFNetworking.h"
+    #import "ZJChatKit.h"
+
 #endif

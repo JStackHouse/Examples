@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport"
+            content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+            <meta name="format-detection" content="telephone=no">
+                <meta name="apple-touch-fullscreen" content="YES">
+                    <meta name="apple-mobile-web-app-capable" content="yes">
+                        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+                            <title>小记客户端下载</title>
+                            <link  href="../user_yey/resources/css/public.css" rel="stylesheet" type="text/css" />
+                            <link  href="../user_yey/resources/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <script language="javascript">
+        function testXiaoJi()
+        {
+            if(typeof XiaoJi != "undefined")
+            {
+                alert(XiaoJi.getSid());
+            }
+            else
+            {
+                alert("XiaoJi Object UnDefined!");
+            }
+        }
+    </script>
+    <body scroll="no">
+        <div class=" mt15" >
+            <img src="../user_yey/resources/images/q1.jpg" width="147" height="67"  />
+            <div  class="dlist ml15">
+                <span class="dlist1">
+                    <a href="#" onclick="testXiaoJi();"><img src="../user_yey/resources/images/q2.jpg"  width="90%"   /></a>
+                    <a href=""><img src="../user_yey/resources/images/q3.jpg" class="mt10"  width="90%"  /></a>
+                </span>
+            </div>
+            <p class="ml15 mr15" style="margin-top:25px; color:#F00; line-height:25px"><span style="color:#F00">提示</span>：如果在微信里面打开，请点击右上角"更多"->"
+            在浏览器中打开"</p>
+        </div>    
+    </body>
+</html>

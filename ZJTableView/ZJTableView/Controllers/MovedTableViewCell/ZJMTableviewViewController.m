@@ -77,6 +77,57 @@
     return cell;
 }
 
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewCellEditingStyleInsert;//UITableViewCellEditingStyleDelete;//UITableViewCellEditingStyleInsert;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath;
+{
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
+{
+    NSUInteger fromRow = [sourceIndexPath row];
+    NSUInteger toRow = [destinationIndexPath row];
+    
+    id object = [self.movedDatasource objectAtIndex:fromRow];
+    [self.movedDatasource removeObjectAtIndex:fromRow];
+    [self.movedDatasource insertObject:object atIndex:toRow];
+}
+
+
+//- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    return @"新增";//@"删除";
+//}
+
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (editingStyle) {
+        case UITableViewCellEditingStyleDelete:
+        {
+            NSLog(@"删除");
+        }
+            break;
+        case UITableViewCellEditingStyleInsert:
+        {
+            
+        }
+            break;
+        default:
+            break;
+    }
+}
+
 #pragma mark - action
 - (void)longPressAction:(UILongPressGestureRecognizer *)gesture
 {
